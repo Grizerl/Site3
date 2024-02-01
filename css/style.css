@@ -1,0 +1,882 @@
+body{
+    margin: 0px;
+}
+.page{
+    background-color: #fff;
+    height: 85px;
+}
+.logo{
+    padding: 0 30px;
+    cursor: pointer;
+}
+#Button-1{
+    margin: 30px 30px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+    color:#000;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+#Button-1:hover{
+    color: #166aea;
+}#Button-2{
+    margin: 0 30px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    color:#000;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+#Button-2:hover{
+    color: #166aea;
+}
+#Button-3{
+    margin: 0 30px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    color:#000;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+#Button-3:hover{
+    color: #166aea;
+}
+#Button-4{
+    margin: 0 30px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    color:#000;
+    cursor: pointer;
+    transition: all .25s ease;
+}#Button-4:hover{
+    color: #166aea;
+}
+#Button-5{
+    margin: 0 30px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    color:#000;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+#Button-5:hover{
+    color: #166aea;
+}
+#Button-6{
+    position: relative;
+    left: 900px;
+    background: #fff;
+    border: 1px solid #166aea;
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-size: 16px;
+    color: #166aea;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    transition: all 1s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+#Button-6:hover{
+    background-color: #166aea;
+    color: #fff;
+}
+#dropdown-1{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    height: 50%;
+    width: 40%;
+    left: 110px;
+    top: 85px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+      
+}
+#dropdown-1-ul{
+list-style-type: none;
+margin: 20px 0px;
+}
+#dropdown-1-li{
+    padding-top: 22px;
+    padding-bottom: 8px;
+}
+#dropdown-1-a{
+    text-decoration: none;
+    position: relative;
+    color: #000;
+    cursor: pointer;
+    font-family: Madefor-Text,Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    font-size: 19px;
+    font-weight: 400;
+    transition: all .25s ease;
+}
+#dropdown-1-a:hover{
+    color: #166aea;
+}
+#dropdown-1-span{
+color: grey;
+font-size: 16px;
+font-weight: 500;
+}
+
+#dropdown-1-li-other{
+    position: relative;
+    left: 380px;
+    bottom: 356px;
+    padding-top: 13px;
+    cursor: pointer;
+}
+#dropdown-2 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 85px;
+    left: 210px;
+    width: 27%;
+    height: 47%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    }
+.dropdown-2-ul{
+    list-style-type: none;
+    margin-top: 28px;
+}
+.dropdown-2-li{
+    padding: 15px 0px 14px 0px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.dropdown-2-a{
+text-decoration: none;
+font-family: Madefor-Text,Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+transition: all .25s ease;
+color: #000;
+}
+.dropdown-2-a:hover{
+    color: #166aea;
+}
+.dropdown-2-span{
+    color: grey;
+    font-size: 17px;
+    font-weight: 500;
+}
+#dropdown-3 {
+        display: none;
+        position: absolute;   
+        background-color: #fff;
+        top: 85px;
+        left: 260px;
+        width: 27%;
+        height: 47%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.dropdown-3-ul{
+        list-style-type: none;
+        margin-top: 28px;
+}
+.dropdown-3-li{
+        padding: 15px 0px 14px 0px;
+        font-size: 17px;
+        font-weight: 400;
+        cursor: pointer;
+}
+.dropdown-3-a{
+        text-decoration: none;
+        font-family: Madefor-Text,Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+        transition: all .25s ease;
+        color: #000;
+}
+.dropdown-3-a:hover{
+        color: #166aea;
+}
+.dropdown-3-span{
+        color: grey;
+        font-size: 17px;
+        font-weight: 500;
+}
+#dropdown-4 {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        top: 85px;
+        left: 385px;
+        width: 27%;
+        height: 47%;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.dropdown-4-ul{
+        list-style-type: none;
+        margin-top: 28px;
+}
+.dropdown-4-li{
+        padding: 15px 0px 14px 0px;
+        font-size: 17px;
+        font-weight: 400;
+        cursor: pointer;
+}
+.dropdown-4-a{
+        text-decoration: none;
+        font-family: Madefor-Text,Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+        transition: all .25s ease;
+        color: #000;
+}
+.dropdown-4-a:hover{
+        color: #166aea;
+}
+.dropdown-4-span{
+    color: grey;
+    font-size: 17px;
+    font-weight: 500;
+}
+#dropdown-5 {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 85px;
+    left: 510px;
+    width: 27%;
+    height: 15%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.dropdown-5-ul{    
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 16px;
+}
+.dropdown-5-li{
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 20px 0px;
+}
+.dropdown-5-a{
+    text-decoration: none;
+    font-family: Madefor-Text,Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    transition: all .25s ease;
+    color: #000;
+}
+.dropdown-5-a:hover{
+    color: #166aea;
+}
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(28, 40, 96);
+    color: #fff;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+    font-size: 21px;
+    height: 90px;
+}
+.icon{
+    padding-right: 10px;
+}
+.aside-section{
+    padding-right: 120px;
+}
+
+.control{
+    border-bottom: 2px solid #fff;
+    cursor: pointer;  
+    transition: all .25s ease;   
+    margin: 0px 10px; 
+    text-decoration: none;
+    color: #fff;
+}
+.control-section{
+    font-size: 19px;
+    padding-left:  10px;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+.control:hover{ 
+    color: #989898;
+    border-color: #989898;
+}
+.content-section:hover{
+    color: #989898;
+    border-color: #989898;
+}
+.StylableButton25453524__icon{
+position: absolute;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content-footer{
+    font-size: 96px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    line-height: 100px;
+}
+.aside{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content-aside{
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    text-align: center;
+    line-height: 34px;
+    color: #282828;
+    font-size: large;
+}
+.btn-aside{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.btn-aside-content{
+    border: none;
+    margin-top: 30px;
+    background: #166aea;
+    padding: 20px 85px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 35px;
+    font-size: x-large;
+    font-family: Madefor,Helvetica Neue,Helvetica,Arial,メイリオ,Meiryo,ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro W3,Hiragino Kaku Gothic Pro,sans-serif!important;
+}
+.StylableButton2545352__icon{
+    position: relative;
+    right: 78px;
+    top: 16px;
+    cursor: pointer;
+    transition: all 1s ease;
+    animation: myAnimation 10s infinite;
+}
+@keyframes myAnimation {
+    0% {
+      transform: translate(0px, 0px);
+    }
+    50% {
+        transform: translate(30px, 0px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+  }
+.footer-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.thumb-left{
+position: relative;
+left: 100px;
+margin-bottom: 70px;
+}
+.footer-pic{
+    position: relative;
+    z-index: 1;
+}
+.thumb-right{
+    position: relative;
+    right: 100px;
+    margin-bottom: 70px;
+}
+.preview{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    background-color: rgb(20, 52, 142);
+    position: relative;
+    height: 60vh;
+    width: 100%;
+    bottom: 120px;
+}
+.preview-slogan{
+    color: #fff;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    position: relative;
+    right: 158px;
+    font-size: 48px;
+}
+.row{
+    color: #ffffff;
+    position: relative;
+    right: 50px;
+    font-size: 21px;
+    top: 23px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    line-height: 29px;
+}
+.btn-preview{
+border-bottom: 2px solid #ffffff;
+font-size: x-large;
+font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+}
+.StylableButton254535241__icon{
+position: relative;
+bottom: 31px;
+left: 122px;
+}
+.preview-control{
+    color: #ffffff;
+    margin: 0 5px;
+    font-size: 24px;
+}
+.adv{
+    background-color: rgb(3, 89, 70);
+    margin: 0px;
+    position: relative;
+    bottom: 120px;
+    width: 52%;
+    height: 110vh;
+    color: #ffffff;
+}
+.adv::after{
+    content: "";
+    background: #A8A8A8;
+    height: 52%;
+    opacity: 0.33;
+    width: 92%;
+    position: absolute;
+    left: 961px;
+    bottom: 0px;
+    transition: all .25s ease;
+}
+.adv-meta{
+    position: absolute;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    left: 230px;
+    top: 182px;
+    font-size: 47px;
+    margin: 0px;
+}
+.adv-meta-2{
+    position: absolute;
+    top: 315px;
+    left: 230px;
+    font-size: 20px;
+    font-family: madefor-text-mediumbold,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+}
+.img-face{
+    position: absolute;
+    top: 270px;
+    left: 1100px;
+    z-index: 1;
+}
+.adv-content{
+    position: absolute;
+    left: 136px;
+    top: 400px;
+    border-top: 1px solid #ffffff;
+}
+.adv-content-heading{
+    font-size: 27px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+}
+.adv-content-meta{
+    font-size: 19px;
+    font-family: madefor-text-mediumbold,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+}
+.adv-content-second{
+    position: absolute;
+    bottom: 192px;
+    left: 134px;
+    border-top: 1px solid #ffffff;
+}
+.adv-content-heading-second{
+    font-size: 21px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+}
+.adv-content-meta-second{
+    font-size: 21px;
+    font-family: madefor-text-mediumbold,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+}
+.adv-content-third{
+    position: absolute;
+    left: 470px;
+    bottom: 450px;
+    border-top: 1px solid #ffffff;
+}
+.adv-content-heading-third{
+    font-size: 27px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+}
+.adv-content-meta-third{
+    font-size: 20px;
+    font-family: madefor-text-mediumbold,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+}
+.adv-content-fourth{
+    position: absolute;
+    bottom: 208px;
+    left: 470px;
+    border-top: 1px solid #ffffff;
+}
+.adv-content-heading-fourth{
+    font-size: 19px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+}
+.adv-content-meta-fourth{
+    font-size: 19px;
+    font-family: madefor-text-mediumbold,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+}
+.adv-btn{
+    position: absolute;
+    bottom: 81px;
+    font-size: 30px;
+    left: 185px;
+    border-bottom: 1px solid #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+    transition: all .25s ease;
+
+}
+.StylableButton2545352419__icon {
+    position: absolute;
+    bottom: 88px;
+    left: 324px;
+    cursor: pointer;
+}
+.adv-btn:hover{
+    color: #A8A8A8;
+    opacity: 1;
+}
+.adv-socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.adv-socials-title{
+    font-size: xxx-large;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    color: #000;
+}
+.adv-socials-subtitle{
+    font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 40px;
+}
+.adv-socials-btn{
+    font-size: 27px;
+    border-bottom: 1px solid #000;
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .25s ease;
+}
+.adv-socials-btn:hover{
+    color: #166aea;
+    border-color: #166aea;
+}
+.adv-socials-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.adv-socials-img-meta{
+    margin: 80px 20px 0px 20px;
+}
+.adv-socials-img-meta-text{
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.slider-basket{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(20, 52, 142);
+    color: #ffffff;
+    height: 65vh
+}
+.slider-basket-header{
+    font-family: helveticaneuew10-75bold,helveticaneuew01-75bold,helveticaneuew02-75bold,sans-serif;
+    text-align: center;
+    font-size: 48px;
+    margin: 100px 0px 10px 0px;
+}
+.slider-basket-header-span{
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    left: 313px;
+}
+.text-slider-basket{
+    font-family: madefor-text-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    font-size: 18px;
+    margin: 55px 0px 20px 0px;
+}
+.text-slider-basket-li{
+    padding-bottom: 10px;
+}
+.text-slider-basket-span{
+    font-size: 26px;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    left: 228px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    top: 35px;
+}
+.StylableButton254__icon{
+    margin: 0px 20px 0px 6px;
+    position: relative;
+    left: 223px;
+    top: 35px;
+    cursor: pointer;
+}
+.Ukit-end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    font-size: 17px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 5px 0px 15px 0px;
+    font-family: madefor-text,helveticaneuew01-45ligh,helveticaneuew02-45ligh,helveticaneuew10-45ligh,sans-serif;
+    color: #000000;
+}
+.bolt{
+    font-weight: 700;
+    margin-left: 5px;
+}
+.form-check{
+    display: flex;
+    flex-direction: column;
+    height: 91vh;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.form-check-header{
+    font-family: Madefor,HelveticaNeueW01-Thin,HelveticaNeueW02-Thin,HelveticaNeueW10-35Thin,sans-serif;
+    color: #20303c;
+    font-weight: 600;
+    text-align: center;
+    font-size: 57px;
+    margin-bottom: 20px;
+}
+.form-check-span{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.form-check-span-out{
+cursor: pointer;
+text-decoration: none;
+color: #166aea;
+}
+.form-check-1-header{
+    position: relative;
+    right: 205px;
+}
+.form-check-2-header{
+    position: relative;
+    right: 150px;
+}
+.form-check-3-header{
+    position: relative;
+    right: 158px;
+}
+.form-check-4-header{
+    position: relative;
+    right: 146px;
+}
+.form-check-1{
+    margin: 15px 0px;
+    padding: 14px 65px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    transition: all 1s ease;
+   
+}
+.form-check-2{
+    margin: 15px 0px;
+    padding: 14px 65px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    transition: all 1s ease;
+
+}
+.form-check-3{
+    margin: 15px 0px;
+    padding: 14px 65px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    transition: all 1s ease;
+}
+.form-check-4{
+    margin: 15px 0px;
+    padding: 14px 65px;
+    position: relative;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    transition: all 1s ease;
+}
+
+.form-btn{
+position: relative;
+    right: 264px;
+    text-decoration: none;
+    padding: 16px 28px;
+    border: 1px solid #166aea;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #166aea;
+    background: none;
+    transition: all .35s ease;
+    font-family: Madefor,HelveticaNeueW01-55Roma,HelveticaNeueW02-55Roma,HelveticaNeueW10-55Roma,sans-serif;
+    font-weight: 400;
+}
+.form-btn:hover{
+    background-color: #166aea;
+    color: #fff;
+}
+.form-label-1{ 
+    position: relative;
+    right: 283px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+    top: -10px;
+}
+ .form-label-2{
+    position: relative;
+    right: 283px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+    top: -10px;
+}
+.form-label-3{
+    position: relative;
+    right: 283px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+    top: -10px;
+}
+.form-label-4{
+    position: relative;
+    right: 283px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 1s ease;
+    top: -10px;
+}
+.form-check-1:focus ~.form-label-1{
+    font-size: 14px;
+    position: relative;
+    top: -32px;
+    right: 310px; 
+
+}
+.form-check-2:focus ~.form-label-2{
+    font-size: 14px;
+    position: relative;
+    top: -32px;
+    right: 310px; 
+
+}
+.form-check-3:focus ~.form-label-3{
+    font-size: 14px;
+    position: relative;
+    top: -32px;
+    right: 310px; 
+
+}
+.form-check-4:focus~.form-label-4{
+    font-size: 14px;
+    position: relative;
+    top: -32px;
+    right: 310px; 
+} 
+.SM-GOOGLE{
+    padding: 18px 80px;
+    background-image: url(https://static.parastorage.com/services/login-statics/1.2689.0/images/google-logo.svg);
+    background-position-x: left;
+    background-color: #166aea;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left;
+    position: relative;
+    bottom: 260px;
+    left: 200px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    color: #fff;
+    cursor: pointer;
+}
+.SM-FACEBOOK{
+    padding: 18px 73px;
+    background-image: url(https://static.parastorage.com/services/login-statics/1.2689.0/images/facebook-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 12px;
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+    font-size: 15px;
+    border: none;
+    font-weight: 600;
+    border-radius: 8px;
+    font-family: madefor-display-bold,helveticaneuew01-65medi,helveticaneuew02-65medi,helveticaneuew10-65medi,sans-serif;
+    background-color: #20303c;
+    color: #fff;
+    cursor: pointer;
+    background-position: left;
+}
+.span-form-check{
+    position: relative;
+    left: 35px;
+    bottom: 40px;
+}
+.span-form-check-2{
+    position: relative;
+    left: 43px;
+    bottom: 26px;
+}
+.logon{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    bottom: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+#material-icons{
+    font-size: 38px;
+}
+
